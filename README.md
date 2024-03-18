@@ -2,7 +2,7 @@
 ADSP_BootCamp
 
 
-# This Bootcamp is designed to give you a head start and prepare you for the exciting journey ahead. It will cover some of the below essential concepts and tools for drones, so you can hit the ground running when the quarter officially starts.
+This Bootcamp is designed to give you a head start and prepare you for the exciting journey ahead. It will cover some of the below essential concepts and tools for drones, so you can hit the ground running when the quarter officially starts.
 
 
 
