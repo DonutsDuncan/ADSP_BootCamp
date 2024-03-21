@@ -1,5 +1,5 @@
 # Install Package for Arduino Board on Tello drone from https://pypi.org/project/droneblocks-python-utils/
-#pip install droneblocks-python-utils
+# pip install droneblocks-python-utils
 
 from droneblocks.DroneBlocksTello import DroneBlocksTello
 import time
@@ -29,4 +29,4 @@ tello.land()
 tello.set_top_led(b=0,r=0,g=255)
 tello.scroll_string("ADSP Robotics Capstone is the Best...    ")
 time.sleep(15)
-#DroneBlocksTello.connect()
+# DroneBlocksTello.connect()

@@ -3,7 +3,7 @@ import torch
 from djitellopy import Tello  # Make sure to install djitellopy library
 
 # Initialize the Tello drone
-tello = Tello('192.168.87.24')
+tello = Tello()
 
 # Connect to the Tello drone
 tello.connect()

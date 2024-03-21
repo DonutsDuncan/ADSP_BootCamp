@@ -5,15 +5,17 @@ Created on Sat Mar 18 10:35:40 2023
 @author: sb5
 """
 # Install Package for Tello drone from https://pypi.org/project/djitellopy/
-#pip install djitellopy
+# pip install djitellopy
 
 
+# Library Imports
 from djitellopy import Tello
 import time
 
+
 def main():
     # Initialize the Tello drone
-    tello = Tello('192.168.87.23')
+    tello = Tello()
 
     # Connect to the drone
     print("Connecting to drone...")
@@ -33,7 +35,6 @@ def main():
     tello.move_forward(10)
     time.sleep(5)
 
-
     # Fly forward
     print("Flying forward...")
     tello.move_up(10)
@@ -48,10 +49,10 @@ def main():
     tello.move_forward(10)
     time.sleep(5)
 
-
     # Land
     print("Landing...")
     tello.land()
+
 
 if __name__ == "__main__":
     main()

@@ -1,5 +1,5 @@
 # Install Package for OpenCV from https://pypi.org/project/opencv-python/
-#pip install opencv-python
+# pip install opencv-python
 
 import cv2
 
